@@ -1,17 +1,11 @@
 <script>
-	import { page } from '$app/stores';
 	import { afterNavigate } from '$app/navigation';
-	import LinktreeButton from './LinktreeButton.svelte';
 
 	let menuOpen = false;
 
 	afterNavigate(() => {
 		menuOpen = false;
 	});
-
-	function isActive(path) {
-		return $page.url.pathname === path;
-	}
 </script>
 
 <nav class="navbar">
@@ -20,14 +14,12 @@
 	</a>
 
 	<div class="nav-links desktop">
-		<a class={isActive('/') ? 'nav-link active' : 'nav-link'} href="/">HOME</a>
-		<a class={isActive('/about') ? 'nav-link active' : 'nav-link'} href="/about">ABOUT</a>
-		<a class={isActive('/join') ? 'nav-link active' : 'nav-link'} href="/join">JOIN</a>
-		<a class={isActive('/quiz') ? 'nav-link active' : 'nav-link'} href="/quiz">QUIZ</a>
+		<a class="nav-link" href="/about">About</a>
+		<a class="nav-link auto-yellow" href="/join">Join</a>
+		<a class="nav-link destiny-purple" href="/fandom-realm">Fandom Realm</a>
 	</div>
 
-	<div class="actions">
-		<LinktreeButton />
+	<div class="actions mobile">
 		<div
 			class="hamburger mobile"
 			onclick={() => (menuOpen = !menuOpen)}
@@ -46,10 +38,9 @@
 
 	{#if menuOpen}
 		<div class="nav-links mobile">
-			<a class={isActive('/') ? 'nav-link active' : 'nav-link'} href="/">HOME</a>
-			<a class={isActive('/about') ? 'nav-link active' : 'nav-link'} href="/about">ABOUT</a>
-			<a class={isActive('/join') ? 'nav-link active' : 'nav-link'} href="/join">JOIN</a>
-			<a class={isActive('/quiz') ? 'nav-link active' : 'nav-link'} href="/quiz">QUIZ</a>
+			<a class="nav-link" href="/about">About</a>
+			<a class="nav-link auto-yellow" href="/join">Join</a>
+			<a class="nav-link destiny-purple" href="/fandom-realm">Fandom Realm</a>
 		</div>
 	{/if}
 </nav>
@@ -82,7 +73,12 @@
 		padding: 0.5rem 1rem;
 		background: var(--nav-bg);
 		color: var(--nav-tx);
-		font-family: 'Bebas Neue';
+		font-family: 'Anek Tamil';
+		padding-left: 8rem;
+		padding-right: 8rem;
+		border-bottom-color: #885599;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
 	}
 
 	.logo {
@@ -110,13 +106,16 @@
 		transition: color 0.3s;
 	}
 
-	.active {
-		border-top: 1px solid var(--nav-tx);
-		border-bottom: 1px solid var(--nav-tx);
+	.auto-yellow {
+		color: #ffbb22;
+	}
+
+	.destiny-purple {
+		color: #885599;
 	}
 
 	.nav-link:hover {
-		border-bottom: 1px solid var(--nav-tx);
+		color: #ca3131;
 	}
 
 	.actions {
@@ -145,6 +144,11 @@
 	}
 
 	@media (max-width: 600px) {
+		.navbar {
+			padding-left: 2rem;
+			padding-right: 2rem;
+		}
+
 		.desktop {
 			display: none;
 		}

@@ -7,7 +7,7 @@
 			rel="noopener"
 			class="btn"
 		>
-			<span class="hugeicons--whatsapp"></span> WhatsApp Community
+			<span class="hugeicons--whatsapp"></span> WhatsApp
 		</a>
 		<a href="https://discord.gg/YPbbPyxbHG" target="_blank" rel="noopener" class="btn">
 			<span class="hugeicons--discord"></span> Discord

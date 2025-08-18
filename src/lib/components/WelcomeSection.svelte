@@ -1,8 +1,8 @@
 <div class="welcome-section">
-	<img class="welcome-section-logo" src="/assets/logos/logoB.png" alt="Chennai Anime Club" />
+	<img class="welcome-section-logo" src="/assets/logos/logoW.png" alt="Chennai Anime Club" />
 	<div class="welcome-section-desc">
 		<p>
-			<strong style="color: #FFBB22;">Vanakkam!</strong> Welcome to the gathering spot for anime lovers
+			<strong style="color: #CA3131;">Vanakkam!</strong> Welcome to the gathering spot for anime lovers
 			in and around Chennai.
 		</p>
 		<p>Join us for meet-ups, events, conventions, and movie screenings —</p>
@@ -12,7 +12,7 @@
 			you here.
 		</p>
 	</div>
-	<a href="/join" class="welcome-section-join-btn">Join The Club</a>
+	<a href="/join" class="welcome-section-join-btn">Join The Club!</a>
 </div>
 
 <style>
@@ -23,8 +23,8 @@
 		align-items: center;
 		padding: 0.5rem;
 		width: 100%;
-		font-family: 'Libre Baskerville';
-		gap: 0.8rem;
+		font-family: 'Anek Tamil';
+		gap: 2rem;
 	}
 
 	.welcome-section-logo {
@@ -46,8 +46,8 @@
 
 	.welcome-section-join-btn {
 		display: inline-block;
-		background-color: #ca3131;
-		color: white;
+		background-color: #ffbb22;
+		color: black;
 		padding: 0.6rem 1.4rem;
 		border-radius: 9999px;
 		font-weight: 600;
@@ -60,12 +60,12 @@
 	}
 
 	.welcome-section-join-btn:hover {
-		background-color: #b22b2b;
+		background-color: #e68a00;
 		transform: translateY(-2px);
 	}
 
 	.welcome-section-join-btn:active {
-		background-color: #991f1f;
+		background-color: #cc7000;
 		transform: translateY(0);
 	}
 
