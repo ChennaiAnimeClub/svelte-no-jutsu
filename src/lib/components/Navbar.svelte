@@ -76,7 +76,7 @@
 		font-family: 'Anek Tamil';
 		padding-left: 8rem;
 		padding-right: 8rem;
-		border-bottom-color: #885599;
+		border-bottom-color: #292626;
 		border-bottom-style: solid;
 		border-bottom-width: 1px;
 	}
@@ -132,7 +132,7 @@
 		padding: 0.5rem 1rem;
 		border-style: solid;
 		border-width: 1px;
-		border-color: var(--nav-tx);
+		border-color: #292626;
 	}
 
 	.desktop {
@@ -147,6 +147,16 @@
 		.navbar {
 			padding-left: 2rem;
 			padding-right: 2rem;
+			justify-content: center;
+		}
+
+		.logo {
+			margin: 0 auto;
+		}
+
+		.actions.mobile {
+			position: absolute;
+			right: 1rem;
 		}
 
 		.desktop {
@@ -157,7 +167,6 @@
 		}
 		.nav-links.mobile {
 			flex-direction: column;
-			align-items: flex-end;
 			box-sizing: border-box;
 			background: var(--nav-bg);
 			padding: 0.5rem 1rem;
@@ -167,6 +176,14 @@
 			top: 100%;
 			left: 0;
 			width: 100%;
+
+			border-top-color: #292626;
+			border-top-style: solid;
+			border-top-width: 1px;
+
+			border-bottom-color: #292626;
+			border-bottom-style: solid;
+			border-bottom-width: 1px;
 		}
 	}
 </style>
