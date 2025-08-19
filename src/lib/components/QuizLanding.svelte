@@ -4,7 +4,8 @@
 
 <div class="landing">
 	<div class="card" in:fade>
-		<h1>Ma-Chan, The Matchmaker</h1>
+		<h1>Core Anime Corner:</h1>
+		<h2>Matchmaking Experience</h2>
 		<p>Let full-time mascot and part-time matchmaker Ma-Chan find the perfect anime for you ..</p>
 		<button onclick={startQuiz} aria-label="Find Your Match"> Find Your Match </button>
 	</div>
@@ -27,7 +28,11 @@
 	.card h1 {
 		font-size: 2rem;
 		font-weight: 700;
-		margin-bottom: 16px;
+		margin-bottom: 0;
+	}
+
+	.card h2 {
+		margin-top: 0;
 	}
 
 	.card p {

@@ -1,0 +1,82 @@
+[
+	{
+		"slug": "aoi-hana",
+		"icon": "entypo--flower"
+	},
+	{
+		"slug": "boarding-school-juliet",
+		"icon": "fluent--bow-tie-20-regular"
+	},
+	{
+		"slug": "blue-giant",
+		"icon": "game-icons--saxophone"
+	},
+	{
+		"slug": "coppelion",
+		"icon": "basil--bag-outline"
+	},
+	{
+		"slug": "detective-school-q",
+		"icon": "tabler--brand-planetscale"
+	},
+	{
+		"slug": "ergo-proxy",
+		"icon": "solar--eye-broken"
+	},
+	{
+		"slug": "frieren",
+		"icon": "mdi--magic-staff"
+	},
+	{
+		"slug": "gegege",
+		"icon": "game-icons--eyeball"
+	},
+	{
+		"slug": "little-witch-academia",
+		"icon": "witch"
+	},
+	{
+		"slug": "log-horizon",
+		"icon": "mdi--controller"
+	},
+	{
+		"slug": "megalo-box",
+		"icon": "mdi--piston"
+	},
+	{
+		"slug": "ooku",
+		"icon": "emojione-monotone--japanese-castle"
+	},
+	{
+		"slug": "paranoia-agent",
+		"icon": "game-icons--baseball-bat"
+	},
+	{
+		"slug": "phantom",
+		"icon": "game-icons--pistol-gun"
+	},
+	{
+		"slug": "prison-school",
+		"icon": "game-icons--whip"
+	},
+	{
+		"slug": "rahxephon",
+		"icon": "fluent-emoji-high-contrast--wing"
+	},
+	{
+		"slug": "sasaki-and-miyano",
+		"icon": "bi--music-player"
+	},
+	{
+		"slug": "slayers",
+		"icon": "game-icons--fire-spell-cast"
+	},
+	{
+		"slug": "to-be-hero-x",
+		"icon": "mdi--alphabet-x"
+	},
+	{
+		"slug": "yowamushi-pedal",
+		"icon": "bi--bicycle"
+	}
+]

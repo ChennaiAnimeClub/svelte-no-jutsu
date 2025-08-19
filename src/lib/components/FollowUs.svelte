@@ -1,5 +1,5 @@
 <section>
-	<h2>Follow for Updates</h2>
+	<h4>Follow for Updates</h4>
 	<div class="grid">
 		<a
 			href="https://www.instagram.com/chennai_anime_club/"
@@ -21,6 +21,12 @@
 		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 		gap: 1rem;
 	}
+
+	h4 {
+		margin-top: 16px;
+		margin-bottom: 8px;
+	}
+
 	.btn {
 		display: flex;
 		align-items: center;
@@ -34,7 +40,7 @@
 		font-weight: 600;
 	}
 	.btn:hover {
-		background: gray;
+		background: #ca3131;
 	}
 
 	.hugeicons--instagram {

@@ -1,5 +1,5 @@
 <section>
-	<h2>Catch Us on YouTube</h2>
+	<h4>Catch Us on YouTube</h4>
 	<div class="grid">
 		<a
 			href="https://www.youtube.com/@chennaianimeclub3641"
@@ -18,6 +18,12 @@
 		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 		gap: 1rem;
 	}
+
+	h4 {
+		margin-top: 16px;
+		margin-bottom: 8px;
+	}
+
 	.btn {
 		display: flex;
 		align-items: center;
@@ -31,7 +37,7 @@
 		font-weight: 600;
 	}
 	.btn:hover {
-		background: gray;
+		background: #ca3131;
 	}
 
 	.hugeicons--youtube {

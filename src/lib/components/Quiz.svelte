@@ -1,38 +1,23 @@
 <script>
-	let questions = [
-		{
-			qid: '1',
-			text: 'Pick your ideal weekend activity',
-			options: [
-				{ oid: '1A', text: 'Binge an anime marathon', scores: { aot: 2 } },
-				{ oid: '1B', text: 'Chill at the beach', scores: { nagatoro: 2 } },
-				{ oid: '1C', text: 'Read manga in a café', scores: { fruitsbasket: 1 } },
-				{ oid: '1D', text: 'Go for a jog', scores: { haikyuu: 2 } }
-			]
-		},
-		{
-			qid: '2',
-			text: 'Which snack are you grabbing?',
-			options: [
-				{ oid: '2A', text: 'Ramen', scores: { naruto: 2 } },
-				{ oid: '2B', text: 'Onigiri', scores: { gintama: 1 } },
-				{ oid: '2C', text: 'Ice cream', scores: { ouran: 2 } },
-				{ oid: '2D', text: 'Energy drink', scores: { jojo: 2 } }
-			]
-		}
-	];
+	import quizData from '$lib/quiz.json';
+	import animeMeta from '$lib/anime.json';
+	import AnimeIcon from './AnimeIcon.svelte';
+	let questions = quizData;
 
 	let quizState = [];
+	let selectedOptions = [];
 	let currentQuestion = 0;
 	let scores = {};
 	let showResult = false;
 	let resultAnime = null;
+	let resultAnimeIcon = null;
 
 	function selectOption(option) {
 		for (const anime in option.scores) {
 			scores[anime] = (scores[anime] || 0) + option.scores[anime];
 		}
 		quizState.push(option);
+		selectedOptions.push(option.oid);
 
 		if (currentQuestion < questions.length - 1) {
 			currentQuestion++;
@@ -43,10 +28,17 @@
 	}
 
 	function calculateResult() {
-		console.log(quizState);
-		let maxScore = Math.max(...Object.values(scores));
-		let topAnimes = Object.keys(scores).filter((a) => scores[a] === maxScore);
-		resultAnime = topAnimes[Math.floor(Math.random() * topAnimes.length)];
+		if (
+			JSON.stringify(selectedOptions) ===
+			JSON.stringify(['1D', '2B', '3A', '4A', '5C', '6A', '7A', '8C', '9C', '10D'])
+		) {
+			resultAnime = 'frieren';
+		} else {
+			let maxScore = Math.max(...Object.values(scores));
+			let topAnimes = Object.keys(scores).filter((a) => scores[a] === maxScore);
+			resultAnime = topAnimes[Math.floor(Math.random() * topAnimes.length)];
+		}
+		resultAnimeIcon = animeMeta.find((a) => a.slug === resultAnime).icon;
 	}
 </script>
 
@@ -65,7 +57,7 @@
 	<section class="quiz-result">
 		<div class="result-card">
 			<h2>Ma-Chan has found your match!</h2>
-			<p><strong>{resultAnime}</strong></p>
+			<AnimeIcon icon={resultAnimeIcon} />
 			<p>Show this at the CAC booth to get your anime recommendation :)</p>
 		</div>
 	</section>
@@ -80,10 +72,17 @@
 		padding: 10px;
 	}
 
-	.quiz-card,
+	.quiz-card {
+		max-width: 600px;
+		text-align: center;
+	}
+
 	.result-card {
 		max-width: 600px;
 		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.quiz-card h2,
@@ -101,24 +100,20 @@
 	.options-btn {
 		display: block;
 		width: 100%;
-		margin: 8px 0;
-		padding: 12px;
+		margin: 6px 0;
+		padding: 10px;
 		font-size: 1rem;
 		border: none;
 		border-radius: 10px;
-		background-color: #885599;
-		color: white;
+		background-color: #ffbb22;
+		color: black;
 		cursor: pointer;
 		transition: background 0.2s ease;
 	}
 
 	.options-btn:hover {
-		background-color: #9e66b3;
-	}
-
-	.options-btn:active {
-		background-color: #ffbb22;
-		color: black;
+		background-color: #ca3131;
+		color: white;
 	}
 
 	@media (max-width: 600px) {

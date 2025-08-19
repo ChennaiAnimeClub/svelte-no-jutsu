@@ -7,7 +7,6 @@
 <div class="join-container">
 	<div class="join-section">
 		<h1>Join Chennai Anime Club</h1>
-		<p class="intro">Connect and share your love for anime</p>
 		<CommunityHubs />
 		<FollowUs />
 		<WatchUs />
@@ -32,9 +31,5 @@
 	h1 {
 		text-align: center;
 		margin-bottom: 0.5rem;
-	}
-	.intro {
-		text-align: center;
-		margin-bottom: 1rem;
 	}
 </style>

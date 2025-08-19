@@ -1,0 +1,174 @@
+[
+	{
+		"qid": 1,
+		"text": "What would you do on your ideal weekend?",
+		"options": [
+			{ "oid": "1A", "text": "Video games", "scores": { "log-horizon": 2 } },
+			{
+				"oid": "1B",
+				"text": "Crafting something or working on my PC",
+				"scores": { "rahxephon": 1 }
+			},
+			{ "oid": "1C", "text": "My hobby! (Art, music, etc.)", "scores": { "blue-giant": 2 } },
+			{ "oid": "1D", "text": "Reading books", "scores": { "ooku": 1 } }
+		]
+	},
+	{
+		"qid": 2,
+		"text": "Where do you see yourself in 10 years?",
+		"options": [
+			{ "oid": "2A", "text": "Married and happy", "scores": { "boarding-school-juliet": 2 } },
+			{
+				"oid": "2B",
+				"text": "Become a witch and have five cats",
+				"scores": { "little-witch-academia": 2 }
+			},
+			{ "oid": "2C", "text": "Becoming a mad scientist!", "scores": { "ergo-proxy": 1 } },
+			{ "oid": "2D", "text": "I become the president!", "scores": { "to-be-hero-x": 1 } }
+		]
+	},
+	{
+		"qid": 3,
+		"text": "While going on a walk, you find a suitcase with more money than you can count. What do you do?",
+		"options": [
+			{ "oid": "3A", "text": "Yay! Free money!", "scores": { "prison-school": 2 } },
+			{ "oid": "3B", "text": "Hand it over to the police", "scores": { "coppelion": 1 } },
+			{
+				"oid": "3C",
+				"text": "Bury the money somewhere safe and use it little by little",
+				"scores": { "phantom": 2 }
+			},
+			{
+				"oid": "3D",
+				"text": "I can make this into even more money by betting on my favorite Uma",
+				"scores": { "log-horizon": 1 }
+			}
+		]
+	},
+	{
+		"qid": 4,
+		"text": "Which kind of anime world would you prefer to wake up in after getting a gentle kiss from Truck-kun’s bumper?",
+		"options": [
+			{
+				"oid": "4A",
+				"text": "A world where I can get magical powers",
+				"scores": { "little-witch-academia": 1 }
+			},
+			{
+				"oid": "4B",
+				"text": "A world with spirits and supernatural events",
+				"scores": { "gegege": 1 }
+			},
+			{
+				"oid": "4C",
+				"text": "A world that is currently in a state of war",
+				"scores": { "coppelion": 2 }
+			},
+			{ "oid": "4D", "text": "A dystopia is totally my vibe", "scores": { "paranoia-agent": 2 } }
+		]
+	},
+	{
+		"qid": 5,
+		"text": "If someone traveled inside your head, what would they find?",
+		"options": [
+			{
+				"oid": "5A",
+				"text": "NOTHING IMPORTANT! *Hides the lewd*",
+				"scores": { "prison-school": 1 }
+			},
+			{
+				"oid": "5B",
+				"text": "Absolute chaos with 20 different Chrome tabs open, and I have no idea where the music is coming from",
+				"scores": { "blue-giant": 1 }
+			},
+			{ "oid": "5C", "text": "Generational longing", "scores": { "frieren": 0 } },
+			{
+				"oid": "5D",
+				"text": "They’re gonna know all about the fantasy novel I’m planning out",
+				"scores": { "slayers": 2 }
+			}
+		]
+	},
+	{
+		"qid": 6,
+		"text": "You are walking home when you see two groups of people fighting. What do you do?",
+		"options": [
+			{
+				"oid": "6A",
+				"text": "I wonder why they’re fighting? Let’s observe safely",
+				"scores": { "detective-school-q": 1 }
+			},
+			{ "oid": "6B", "text": "Join in and try to beat up everyone", "scores": { "megalo-box": 2 } },
+			{
+				"oid": "6C",
+				"text": "I run away super fast—I run track",
+				"scores": { "yowamushi-pedal": 1 }
+			},
+			{
+				"oid": "6D",
+				"text": "Talk to both sides, broker peace, and become their leader",
+				"scores": { "to-be-hero-x": 2 }
+			}
+		]
+	},
+	{
+		"qid": 7,
+		"text": "You start a new anime. Who are you shipping?",
+		"options": [
+			{
+				"oid": "7A",
+				"text": "The male and female lead, because they’ll definitely get together",
+				"scores": { "boarding-school-juliet": 1 }
+			},
+			{ "oid": "7B", "text": "Two cute female characters, duh", "scores": { "aoi-hana": 2 } },
+			{
+				"oid": "7C",
+				"text": "The male lead and his best friend",
+				"scores": { "sasaki-and-miyano": 2 }
+			},
+			{ "oid": "7D", "text": "The MC and the villain", "scores": { "phantom": 1 } }
+		]
+	},
+	{
+		"qid": 8,
+		"text": "What’s your favorite subject among these?",
+		"options": [
+			{ "oid": "8A", "text": "Psychology", "scores": { "paranoia-agent": 1 } },
+			{ "oid": "8B", "text": "Archaeology", "scores": { "ooku": 2 } },
+			{ "oid": "8C", "text": "Literature", "scores": { "slayers": 1 } },
+			{
+				"oid": "8D",
+				"text": "I don’t want to study! Let’s play some sports!",
+				"scores": { "yowamushi-pedal": 2 }
+			}
+		]
+	},
+	{
+		"qid": 9,
+		"text": "You’ve joined the college of your dreams! Which club activity will you join?",
+		"options": [
+			{ "oid": "9A", "text": "Martial arts club", "scores": { "megalo-box": 1 } },
+			{ "oid": "9B", "text": "The swim team", "scores": { "sasaki-and-miyano": 1 } },
+			{ "oid": "9C", "text": "Ghost-hunting club", "scores": { "gegege": 2 } },
+			{ "oid": "9D", "text": "Robotics club", "scores": { "rahxephon": 2 } }
+		]
+	},
+	{
+		"qid": 10,
+		"text": "Your partner is mad at you. How do you figure it out?",
+		"options": [
+			{ "oid": "10A", "text": "Talk to them and try to work it out", "scores": { "aoi-hana": 1 } },
+			{
+				"oid": "10B",
+				"text": "Analyze every moment in the past week",
+				"scores": { "detective-school-q": 2 }
+			},
+			{ "oid": "10C", "text": "Time to implant a neural chip", "scores": { "ergo-proxy": 2 } },
+			{
+				"oid": "10D",
+				"text": "Don’t know, because I never realized I had a partner until 20 years later",
+				"scores": { "frieren": 0 }
+			}
+		]
+	}
+]

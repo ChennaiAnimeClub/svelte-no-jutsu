@@ -21,7 +21,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding: 0.5rem;
+		padding: 2rem 0.5rem;
 		width: 100%;
 		font-family: 'Anek Tamil';
 		gap: 2rem;

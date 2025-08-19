@@ -30,6 +30,7 @@
 		align-items: center;
 		gap: 0.8rem;
 		font-family: 'Anek Tamil';
+		padding-bottom: 1rem;
 	}
 
 	.quiz-container {
@@ -37,7 +38,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		background-color: #d9d9d9;
+		background-color: #885599;
 		color: black;
 		width: 90vw;
 		height: fit-content;

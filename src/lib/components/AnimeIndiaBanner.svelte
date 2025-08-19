@@ -12,7 +12,7 @@
 	<div class="center">
 		<img src={logo} alt="CAC Logo" />
 		{#if $page.url.pathname !== '/fandom-realm'}
-			<a class="fandom-btn" href="/fandom-realm">Check out the CAC Fandom Realm!</a>
+			<a class="fandom-btn" href="/fandom-realm">Check out the Fandom Realm!</a>
 		{/if}
 	</div>
 
@@ -24,7 +24,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		padding: 0 8rem;
+		padding: 1rem 8rem;
 		background-color: #885599;
 	}
 
@@ -38,6 +38,8 @@
 		align-items: center;
 		text-align: center;
 		max-width: 40%;
+		padding-bottom: 1rem;
+		gap: 1rem;
 	}
 
 	.center img {
@@ -67,6 +69,11 @@
 			gap: 2rem;
 		}
 
+		.center {
+			padding-bottom: 1rem;
+			gap: 1rem;
+		}
+
 		.fandom-btn {
 			padding: 0.4rem 0.7rem;
 			font-size: 0.8rem;
@@ -77,6 +84,11 @@
 		.banner {
 			padding: 0 6rem;
 			gap: 2rem;
+		}
+
+		.center {
+			padding-bottom: 0.8rem;
+			gap: 0.8rem;
 		}
 
 		.fandom-btn {
@@ -91,6 +103,11 @@
 			gap: 4rem;
 		}
 
+		.center {
+			padding-bottom: 0.3rem;
+			gap: 0.5rem;
+		}
+
 		.fandom-btn {
 			padding: 0.1rem 0.2rem;
 			font-size: 0.6rem;
@@ -101,6 +118,11 @@
 		.banner {
 			padding: 0.5rem;
 			gap: 4rem;
+		}
+
+		.center {
+			padding-bottom: 0;
+			gap: 0.3rem;
 		}
 
 		.fandom-btn {

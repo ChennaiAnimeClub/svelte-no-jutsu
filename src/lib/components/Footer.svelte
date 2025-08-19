@@ -3,11 +3,10 @@
 <style>
 	footer {
 		text-align: center;
-		padding: 1rem;
-		font-size: 0.9rem;
+		font-size: 0.7rem;
 		color: #403f4a;
 		background-color: #1c1c1c;
-		padding: 0;
+		padding-bottom: 0.8rem;
 	}
 
 	.sticky {
