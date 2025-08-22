@@ -70,6 +70,7 @@
 		align-items: center;
 		justify-content: center;
 		padding: 10px;
+		color: white;
 	}
 
 	.quiz-card {
@@ -111,7 +112,9 @@
 		transition: background 0.2s ease;
 	}
 
-	.options-btn:hover {
+	.options-btn:hover,
+	.options-btn:active,
+	.options-btn:focus-visible {
 		background-color: #ca3131;
 		color: white;
 	}

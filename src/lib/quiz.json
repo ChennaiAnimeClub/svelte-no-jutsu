@@ -7,7 +7,7 @@
 			{
 				"oid": "1B",
 				"text": "Crafting something or working on my PC",
-				"scores": { "rahxephon": 1 }
+				"scores": { "ssss-gridman": 1 }
 			},
 			{ "oid": "1C", "text": "My hobby! (Art, music, etc.)", "scores": { "blue-giant": 2 } },
 			{ "oid": "1D", "text": "Reading books", "scores": { "ooku": 1 } }
@@ -17,26 +17,26 @@
 		"qid": 2,
 		"text": "Where do you see yourself in 10 years?",
 		"options": [
-			{ "oid": "2A", "text": "Married and happy", "scores": { "boarding-school-juliet": 2 } },
+			{ "oid": "2A", "text": "Married and happy", "scores": { "kokoro-connect": 2 } },
 			{
 				"oid": "2B",
 				"text": "Become a witch and have five cats",
 				"scores": { "little-witch-academia": 2 }
 			},
-			{ "oid": "2C", "text": "Becoming a mad scientist!", "scores": { "ergo-proxy": 1 } },
-			{ "oid": "2D", "text": "I become the president!", "scores": { "to-be-hero-x": 1 } }
+			{ "oid": "2C", "text": "Becoming a mad scientist!", "scores": { "steamboy": 1 } },
+			{ "oid": "2D", "text": "I become the president!", "scores": { "tiger-and-bunny": 1 } }
 		]
 	},
 	{
 		"qid": 3,
 		"text": "While going on a walk, you find a suitcase with more money than you can count. What do you do?",
 		"options": [
-			{ "oid": "3A", "text": "Yay! Free money!", "scores": { "prison-school": 2 } },
+			{ "oid": "3A", "text": "Yay! Free money!", "scores": { "joshiraku": 2 } },
 			{ "oid": "3B", "text": "Hand it over to the police", "scores": { "coppelion": 1 } },
 			{
 				"oid": "3C",
 				"text": "Bury the money somewhere safe and use it little by little",
-				"scores": { "phantom": 2 }
+				"scores": { "psycho-pass": 2 }
 			},
 			{
 				"oid": "3D",
@@ -74,7 +74,7 @@
 			{
 				"oid": "5A",
 				"text": "NOTHING IMPORTANT! *Hides the lewd*",
-				"scores": { "prison-school": 1 }
+				"scores": { "joshiraku": 1 }
 			},
 			{
 				"oid": "5B",
@@ -98,16 +98,16 @@
 				"text": "I wonder why they’re fighting? Let’s observe safely",
 				"scores": { "detective-school-q": 1 }
 			},
-			{ "oid": "6B", "text": "Join in and try to beat up everyone", "scores": { "megalo-box": 2 } },
+			{ "oid": "6B", "text": "Join in and try to beat up everyone", "scores": { "tsurune": 2 } },
 			{
 				"oid": "6C",
 				"text": "I run away super fast—I run track",
-				"scores": { "yowamushi-pedal": 1 }
+				"scores": { "giant-killing": 1 }
 			},
 			{
 				"oid": "6D",
 				"text": "Talk to both sides, broker peace, and become their leader",
-				"scores": { "to-be-hero-x": 2 }
+				"scores": { "tiger-and-bunny": 2 }
 			}
 		]
 	},
@@ -118,7 +118,7 @@
 			{
 				"oid": "7A",
 				"text": "The male and female lead, because they’ll definitely get together",
-				"scores": { "boarding-school-juliet": 1 }
+				"scores": { "kokoro-connect": 1 }
 			},
 			{ "oid": "7B", "text": "Two cute female characters, duh", "scores": { "aoi-hana": 2 } },
 			{
@@ -126,7 +126,7 @@
 				"text": "The male lead and his best friend",
 				"scores": { "sasaki-and-miyano": 2 }
 			},
-			{ "oid": "7D", "text": "The MC and the villain", "scores": { "phantom": 1 } }
+			{ "oid": "7D", "text": "The MC and the villain", "scores": { "psycho-pass": 1 } }
 		]
 	},
 	{
@@ -139,7 +139,7 @@
 			{
 				"oid": "8D",
 				"text": "I don’t want to study! Let’s play some sports!",
-				"scores": { "yowamushi-pedal": 2 }
+				"scores": { "giant-killing": 2 }
 			}
 		]
 	},
@@ -147,10 +147,10 @@
 		"qid": 9,
 		"text": "You’ve joined the college of your dreams! Which club activity will you join?",
 		"options": [
-			{ "oid": "9A", "text": "Martial arts club", "scores": { "megalo-box": 1 } },
+			{ "oid": "9A", "text": "Martial arts club", "scores": { "tsurune": 1 } },
 			{ "oid": "9B", "text": "The swim team", "scores": { "sasaki-and-miyano": 1 } },
 			{ "oid": "9C", "text": "Ghost-hunting club", "scores": { "gegege": 2 } },
-			{ "oid": "9D", "text": "Robotics club", "scores": { "rahxephon": 2 } }
+			{ "oid": "9D", "text": "Robotics club", "scores": { "ssss-gridman": 2 } }
 		]
 	},
 	{
@@ -163,7 +163,7 @@
 				"text": "Analyze every moment in the past week",
 				"scores": { "detective-school-q": 2 }
 			},
-			{ "oid": "10C", "text": "Time to implant a neural chip", "scores": { "ergo-proxy": 2 } },
+			{ "oid": "10C", "text": "Time to implant a neural chip", "scores": { "steamboy": 2 } },
 			{
 				"oid": "10D",
 				"text": "Don’t know, because I never realized I had a partner until 20 years later",

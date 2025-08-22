@@ -39,7 +39,10 @@
 		text-decoration: none;
 		font-weight: 600;
 	}
-	.btn:hover {
+
+	.btn:hover,
+	.btn:active,
+	.btn:focus-visible {
 		background: #ca3131;
 	}
 

@@ -60,12 +60,14 @@
 	}
 
 	.welcome-section-join-btn:hover {
-		background-color: #e68a00;
+		background-color: #ca3131;
+		color: white;
 		transform: translateY(-2px);
 	}
 
 	.welcome-section-join-btn:active {
-		background-color: #cc7000;
+		background-color: #ca3131;
+		color: white;
 		transform: translateY(0);
 	}
 
