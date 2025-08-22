@@ -112,7 +112,7 @@
 		transition: background 0.2s ease;
 	}
 
-	@media (hover: hover) {
+	@media (hover: hover) and (pointer: fine) {
 		.options-btn:hover,
 		.options-btn:active,
 		.options-btn:focus-visible {

@@ -37,7 +37,7 @@
 		font-weight: 600;
 	}
 
-	@media (hover: hover) {
+	@media (hover: hover) and (pointer: fine) {
 		.btn:hover,
 		.btn:active,
 		.btn:focus-visible {
