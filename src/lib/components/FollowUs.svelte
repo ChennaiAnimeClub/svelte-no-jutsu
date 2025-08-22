@@ -39,8 +39,13 @@
 		text-decoration: none;
 		font-weight: 600;
 	}
-	.btn:hover {
-		background: #ca3131;
+
+	@media (hover: hover) {
+		.btn:hover,
+		.btn:active,
+		.btn:focus-visible {
+			background: #ca3131;
+		}
 	}
 
 	.hugeicons--instagram {

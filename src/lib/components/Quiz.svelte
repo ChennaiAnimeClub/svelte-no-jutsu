@@ -112,11 +112,13 @@
 		transition: background 0.2s ease;
 	}
 
-	.options-btn:hover,
-	.options-btn:active,
-	.options-btn:focus-visible {
-		background-color: #ca3131;
-		color: white;
+	@media (hover: hover) {
+		.options-btn:hover,
+		.options-btn:active,
+		.options-btn:focus-visible {
+			background-color: #ca3131;
+			color: white;
+		}
 	}
 
 	@media (max-width: 600px) {
